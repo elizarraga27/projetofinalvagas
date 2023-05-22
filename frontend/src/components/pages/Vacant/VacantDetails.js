@@ -66,7 +66,7 @@ function VacantDetails() {
             <span className="bold">Salario:</span> {vacant.salary} reais
           </p>
           {token ? (
-            <button onClick={schedule}>Solicitar uma Visita</button>
+            <button onClick={schedule}>Candidatar</button>
           ) : (
             <p>
               Você precisa <Link to="/register">criar uma conta</Link> para
