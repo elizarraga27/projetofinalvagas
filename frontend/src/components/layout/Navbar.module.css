@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   padding: 1em 1.5em;
-  background-color: #FFD400;
-  color: #16479d;
+  background-color: rgba(118, 80, 99, 0.5);
+  
+  color: #ffffff;
 }
 
 .navbar_logo {
@@ -25,7 +26,7 @@
 .navbar li,
 .navbar a {
   text-decoration: none;
-  color: #16479d;
+  color: #ffffff;
   font-weight: bold;
   cursor: pointer;
   transition: .5s;
@@ -39,5 +40,5 @@
 }
 
 .navbar li:hover > a {
-  color: #FFF;
+color: #FFF;
 }

@@ -88,7 +88,7 @@ function Profile() {
       </div>
       <form onSubmit={handleSubmit} className={formStyles.form_container}>
         <Input
-          text="Imagem"
+          text="Imagem(JPG ou NPG)"
           type="file"
           name="image"
           handleOnChange={onFileChange}

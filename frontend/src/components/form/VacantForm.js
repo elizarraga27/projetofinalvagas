@@ -53,7 +53,7 @@ function VacantForm({ handleSubmit, vacantData, btnText }) {
             ))}
       </div>
       <Input
-        text="Imagens da vaga"
+        text="Imagens da vaga(JPG ou NPG)"
         type="file"
         name="images"
         handleOnChange={onFileChange}
